@@ -6,7 +6,7 @@ import Contact from './components/Contact'
 
 export default function App() {
   return (
-    <div className="min-h-screen w-full bg-white">
+    <div className="min-h-screen w-full bg-gradient-to-b from-slate-950 via-slate-950 to-white text-slate-900">
       {/* Hero with interactive 3D scene */}
       <Hero />
 
@@ -16,10 +16,10 @@ export default function App() {
       <Contact />
 
       {/* Footer */}
-      <footer className="border-t border-gray-200 bg-white/80">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-6 text-sm text-gray-600">
-          <p>© {new Date().getFullYear()} Your Name. All rights reserved.</p>
-          <a href="#top" className="rounded-full bg-gray-100 px-3 py-1 font-medium text-gray-700 hover:bg-gray-200">Back to top</a>
+      <footer className="mt-10 border-t border-slate-200/60 bg-white/70 backdrop-blur">
+        <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 px-6 py-8 text-sm text-slate-600 sm:flex-row">
+          <p>© {new Date().getFullYear()} Your Name — Building delightful, performant software.</p>
+          <a href="#top" className="rounded-full bg-slate-900 px-3 py-1 font-medium text-white transition hover:bg-black">Back to top</a>
         </div>
       </footer>
     </div>
