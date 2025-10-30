@@ -12,11 +12,11 @@ export default function Hero() {
     <section id="top" className="relative min-h-[92vh] w-full overflow-hidden">
       {/* 3D scene */}
       <div className="absolute inset-0">
-        <Spline scene="https://prod.spline.design/VJLoxp84lCdVfdZu/scene.splinecode" style={{ width: '100%', height: '100%' }} />
+        <Spline scene="https://prod.spline.design/VyGeZv58yuk8j7Yy/scene.splinecode" style={{ width: '100%', height: '100%' }} />
       </div>
 
       {/* Overlays for contrast and polish (do not block interactions) */}
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-slate-950/80 via-slate-900/20 to-transparent" />
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-slate-950/85 via-slate-900/20 to-transparent" />
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(60rem_30rem_at_70%_10%,rgba(16,185,129,0.25),transparent)]" />
 
       {/* Content */}
@@ -24,7 +24,7 @@ export default function Hero() {
         {/* Top bar */}
         <div className="flex items-center justify-between">
           <div className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-3 py-1 text-xs font-medium text-white/90 backdrop-blur">
-            <span className="h-2 w-2 animate-pulse rounded-full bg-emerald-400" /> Open to opportunities
+            <span className="h-2 w-2 animate-pulse rounded-full bg-emerald-400" /> Interactive · Tech · Futuristic
           </div>
           <div className="hidden gap-2 sm:flex">
             {social.map(({ href, label, Icon }) => (
@@ -43,10 +43,10 @@ export default function Hero() {
 
         <div className="pb-24 pt-10 sm:pt-20">
           <h1 className="max-w-3xl text-4xl font-extrabold leading-tight tracking-tight text-white drop-shadow-sm sm:text-6xl">
-            Crafting advanced, playful web apps with a focus on performance and polish.
+            Minimal, futuristic experiences with immersive 3D and precise engineering.
           </h1>
           <p className="mt-4 max-w-2xl text-base text-white/85 sm:text-lg">
-            I blend modern frontend, solid backend, and tasteful motion. Explore featured work below or get in touch to build something exceptional.
+            Building performant, polished products that feel alive. Explore the work or get in touch to create something exceptional.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <a
